@@ -25,7 +25,7 @@ export function SubmitBand() {
             Your cause, your campaign
           </span>
           <h2 className="mt-5 font-display text-[clamp(2rem,6.5vw,4.2rem)] uppercase leading-[0.92]">
-            Submit your local charity —<br />
+            Submit your local charity<br />
             <span className="text-flare">start your own campaign</span>
           </h2>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-paper/75 md:text-lg">

@@ -92,7 +92,7 @@ export function ChooseCause() {
             </h2>
           </div>
           <p className="max-w-sm text-base leading-relaxed text-ink/70 md:text-lg">
-            Dotis only pays verified charities. Pick your cause — or submit your local charity for verification.
+            Dotis only pays verified charities. Pick your cause or submit your local charity for verification.
           </p>
         </motion.div>
       </div>

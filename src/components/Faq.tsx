@@ -15,7 +15,7 @@ const FAQS = [
   },
   {
     q: "How much does it cost me?",
-    a: "Nothing. You don't pay a cent and you don't donate your own money — the value comes from enterprise clients paying for network access.",
+    a: "Nothing. You don't pay a cent and you don't donate your own money. The value comes from enterprise clients paying for network access.",
   },
   {
     q: "Where does the money actually go?",
@@ -23,15 +23,15 @@ const FAQS = [
   },
   {
     q: "Can I see proof of the donations?",
-    a: "Yes. You can request proof of any donation at any time — receipts, transfer records and confirmations from the charity itself. Full transparency is the point, not a feature we charge for.",
+    a: "Yes. You can request proof of any donation at any time, including receipts, transfer records and confirmations from the charity itself. Full transparency is the point, not a feature we charge for.",
   },
   {
     q: "Why isn't Dotis on the Google Play or Apple App Store?",
-    a: "Because we do not support big tech. We don't want to pay the companies that stand against our values, so Dotis is self-hosted (no Amazon) and distributed as an open-source download — no Google, no Apple, no 30% cut taken out of donations. You download it straight from us, and the code is open for anyone to inspect.",
+    a: "Because we do not support big tech. We don't want to pay the companies that stand against our values, so Dotis is self-hosted (no Amazon) and distributed as an open-source download. No Google, no Apple, and no 30% cut taken out of donations. You download it straight from us, and the code is open for anyone to inspect.",
   },
   {
     q: "Can I submit my own local charity or campaign?",
-    a: "Yes. Anyone can submit a local charity or start their own campaign. Once we verify the organisation you get your own Dotis link to share with your community — perfect for influencers, community leaders and local fundraisers.",
+    a: "Yes. Anyone can submit a local charity or start their own campaign. Once we verify the organisation you get your own Dotis link to share with your community. It's perfect for influencers, community leaders and local fundraisers.",
   },
   {
     q: "How are charities chosen?",

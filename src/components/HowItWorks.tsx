@@ -7,7 +7,7 @@ const ease = [0.16, 1, 0.3, 1] as const;
 const STEPS = [
   {
     title: ["Download", "the app"],
-    description: "One quick install and Dotis starts sharing your unused internet in the background — you won't even notice it.",
+    description: "One quick install and Dotis starts sharing your unused internet in the background. You won't even notice it.",
   },
   {
     title: ["Activate &", "keep scrolling"],
@@ -15,7 +15,7 @@ const STEPS = [
   },
   {
     title: ["We donate to", "verified charities"],
-    description: "The value you generate goes straight to vetted charities — food aid, disaster relief, and wildlife rescue.",
+    description: "The value you generate goes straight to vetted charities supporting food aid, disaster relief, and wildlife rescue.",
   },
 ] as const;
 
@@ -44,7 +44,7 @@ function MockupBrowser({ step }: { step: number }) {
                   <Download className="h-6 w-6 text-paper sm:h-8 sm:w-8" />
                 </div>
                 <div>
-                  <p className="text-sm font-semibold sm:text-lg">Dotis — Let your feed, feed someone</p>
+                  <p className="text-sm font-semibold sm:text-lg">Dotis | Let your feed, feed someone</p>
                   <p className="mt-1 text-sm text-ink/50">dotis.app • Free</p>
                 </div>
               </div>
@@ -111,7 +111,7 @@ function MockupBrowser({ step }: { step: number }) {
               </div>
               <div className="mt-4 flex items-center justify-center gap-2 text-xs font-medium text-ink/50">
                 <MousePointerClick className="h-3.5 w-3.5 text-flare" />
-                Keep scrolling — you're donating right now
+                Keep scrolling. You're donating right now
               </div>
             </motion.div>
           )}

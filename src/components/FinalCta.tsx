@@ -59,7 +59,7 @@ export function FinalCta() {
         whileInView={{ opacity: 1, rotate: -2 }}
         viewport={{ once: true }}
         transition={{ duration: 1.1, ease }}
-        className="pointer-events-none absolute -left-2 top-0 z-[6] h-[54svh] w-[42vw] max-w-[170px] object-contain object-left-top mix-blend-multiply sm:-left-12 sm:h-full sm:w-[38vw] sm:max-w-[300px] lg:-left-16 lg:z-50 lg:w-[30vw] lg:max-w-[460px]"
+        className="pointer-events-none absolute left-3 top-[7svh] z-[6] h-[54svh] w-[40vw] max-w-[170px] object-contain object-left-top mix-blend-multiply sm:left-[3vw] sm:top-[8svh] sm:h-[88svh] sm:w-[34vw] sm:max-w-[300px] lg:left-[4vw] lg:top-[10svh] lg:z-50 lg:w-[27vw] lg:max-w-[460px]"
       />
       <motion.img
         src={collageFinalRight}
@@ -70,7 +70,7 @@ export function FinalCta() {
         whileInView={{ opacity: 1, rotate: 2 }}
         viewport={{ once: true }}
         transition={{ duration: 1.1, ease }}
-        className="pointer-events-none absolute -right-2 top-0 z-[6] h-[54svh] w-[42vw] max-w-[170px] object-contain object-right-top mix-blend-multiply sm:-right-12 sm:h-full sm:w-[38vw] sm:max-w-[300px] lg:-right-16 lg:z-50 lg:w-[30vw] lg:max-w-[460px]"
+        className="pointer-events-none absolute right-3 top-[7svh] z-[6] h-[54svh] w-[40vw] max-w-[170px] object-contain object-right-top mix-blend-multiply sm:right-[3vw] sm:top-[8svh] sm:h-[88svh] sm:w-[34vw] sm:max-w-[300px] lg:right-[4vw] lg:top-[10svh] lg:z-50 lg:w-[27vw] lg:max-w-[460px]"
       />
 
       <div className="relative z-10 mx-auto mt-[50svh] flex max-w-2xl flex-col items-center px-2 text-center sm:px-8 md:mt-[17%]">
@@ -124,7 +124,7 @@ export function FinalCta() {
           >
             <span aria-hidden className="rise-fill rise-fill--leaf" />
             <Download className="rise-label h-4 w-4 sm:h-5 sm:w-5" />
-            <span className="rise-label">Install Dotis — it's free</span>
+            <span className="rise-label">Install Dotis, it's free</span>
           </a>
           <button
             type="button"

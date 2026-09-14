@@ -1,6 +1,6 @@
 import { motion, useMotionValue, useScroll, useSpring, useTransform } from "motion/react";
 import { useEffect, useRef } from "react";
-import { Apple, ArrowDown, ArrowUpRight } from "lucide-react";
+import { Apple, ArrowDown, ArrowUpRight, Download } from "lucide-react";
 import { PartnerMarquee } from "./PartnerMarquee";
 import { InstallSun, SunShape } from "./InstallSun";
 import { openSubmitDialog } from "./SubmitCharityModal";
@@ -97,7 +97,7 @@ export function Hero() {
             transition={{ duration: 0.9, delay: 0.75, ease }}
             className="mx-auto mt-5 max-w-xl px-1 text-base leading-relaxed text-ink/80 sm:mt-7 sm:text-lg md:text-xl"
           >
-            Share your small slice of unused internet and generate donations for causes that need it most — at no cost to you.
+            Share your small slice of unused internet and generate donations for causes that need it most, at no cost to you.
           </motion.p>
 
           <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.9, ease }} className="mt-6 flex flex-col items-center gap-3 sm:mt-9 sm:flex-row sm:justify-center sm:gap-4">
@@ -112,9 +112,7 @@ export function Hero() {
                 className="download-sun relative z-10 grid h-10 w-10 place-items-center text-flare"
               >
                 <SunShape className="sun-orbit absolute inset-0 h-full w-full" />
-                <span className="relative grid h-7 w-7 place-items-center overflow-hidden rounded-full">
-                  <img src={logo} alt="" aria-hidden className="download-icon h-5 w-5 object-contain" />
-                </span>
+                <Download aria-hidden className="download-icon relative h-5 w-5 text-paper" />
               </motion.span>
             </a>
             <button

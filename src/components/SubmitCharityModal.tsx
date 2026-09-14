@@ -61,7 +61,7 @@ export function SubmitCharityModal() {
     try {
       const result = await send({ data: payload });
       if (result.delivered) {
-        toast.success("Submission received — we'll be in touch by email.");
+        toast.success("Submission received. We'll be in touch by email.");
       } else {
         toast.success("Submission received. We'll follow up by email shortly.");
       }

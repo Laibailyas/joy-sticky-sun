@@ -1,6 +1,7 @@
 import { motion, useMotionValue, useMotionValueEvent, useScroll, useSpring, useTransform } from "motion/react";
 import { useEffect, type RefObject } from "react";
-import logo from "@/assets/logo.png";
+import { Download } from "lucide-react";
+import dotisMark from "@/assets/dotis-mark-orange.png";
 
 const POINTS = 48;
 const sunPath = (() => {
@@ -135,7 +136,7 @@ export function InstallSun({ anchorRef }: { anchorRef: RefObject<HTMLElement | n
     >
       <SunShape className="sun-orbit h-full w-full drop-shadow-[0_18px_40px_rgba(0,0,0,0.25)]" />
       <motion.span style={{ opacity: iconOpacity }} className="absolute inset-0 grid place-items-center">
-        <img src={logo} alt="" aria-hidden className="h-1/2 w-1/2 object-contain" />
+        <Download aria-hidden className="h-[44%] w-[44%] text-paper" />
       </motion.span>
       <motion.span
         style={{ opacity: textOpacity, fontSize }}
@@ -147,6 +148,13 @@ export function InstallSun({ anchorRef }: { anchorRef: RefObject<HTMLElement | n
           Dotis
         </span>
       </motion.span>
+      <motion.img
+        src={dotisMark}
+        alt=""
+        aria-hidden
+        style={{ opacity: textOpacity }}
+        className="absolute bottom-[17%] right-[15%] h-[16%] w-[16%] object-contain"
+      />
     </motion.a>
   );
 }

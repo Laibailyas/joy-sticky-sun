@@ -6,3 +6,6 @@
 - [x] Brand colours: orange + deep red #680202 + dark green accents
 - [x] Editorial black & white treatment on cause imagery
 - [x] Full-page visual verification (desktop + mobile)
+- [x] Replace the hero logo with a download icon and add the orange Dotis mark to the sticky sun
+- [x] Remove landing-page dash punctuation and update the browser title/favicon
+- [x] Move final-section collages inward and lower

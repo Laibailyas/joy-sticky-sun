@@ -132,7 +132,7 @@ export function SocialProof() {
           </span>
           <p className="text-sm leading-relaxed text-ink/75 md:text-base">
             <strong className="font-medium text-ink">Full transparency:</strong> you can request proof of any donation
-            at any time — receipts, transfer records and charity confirmations for the funds your bandwidth generated.
+            at any time, including receipts, transfer records and charity confirmations for the funds your bandwidth generated.
           </p>
         </motion.div>
 
@@ -167,7 +167,7 @@ export function SocialProof() {
           <div className="flex flex-wrap items-center gap-3">
             <p className="font-stamp text-[0.65rem] uppercase tracking-[0.3em] text-ink/50">Whitelisted charities</p>
             <span className="inline-flex items-center gap-2 rounded-full bg-tape px-4 py-1.5 font-stamp text-[0.58rem] uppercase tracking-[0.24em]">
-              <Globe2 className="h-3.5 w-3.5 text-flare" /> Worldwide — 40+ countries
+              <Globe2 className="h-3.5 w-3.5 text-flare" /> Worldwide, 40+ countries
             </span>
           </div>
           <div className="mt-5 flex flex-wrap gap-3">
@@ -190,7 +190,7 @@ export function SocialProof() {
           </div>
           <p className="mt-5 flex items-center gap-2 text-sm text-ink/60">
             <HeartHandshake className="h-4 w-4 text-flare" />
-            Local charity missing? Submit it and we'll verify it — wherever in the world it works.
+            Local charity missing? Submit it and we'll verify it wherever in the world it works.
           </p>
         </motion.div>
       </div>

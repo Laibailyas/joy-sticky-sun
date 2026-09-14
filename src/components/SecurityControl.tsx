@@ -18,7 +18,7 @@ const CARDS = [
   {
     icon: Eye,
     title: "See every request",
-    body: "A live activity log shows exactly how much bandwidth was shared and what it earned — down to the cent.",
+    body: "A live activity log shows exactly how much bandwidth was shared and what it earned, down to the cent.",
   },
   {
     icon: ShieldCheck,
